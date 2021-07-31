@@ -1,0 +1,25 @@
+* {padding: 0;margin: 0;}
+html {scroll-behavior: smooth;}
+header {background-color: #df1b1b;height: 80px;width: 100%;margin-bottom: 12px;padding: 0;top: 0;position:sticky;}
+body {background-color: #1b1b1b;}
+footer {background-color: #df1b1b;height: 80px;width: 100%;padding: 2% 0;bottom: 0;position:relative;text-align: center;}
+.center, th {border: 1px solid none;border-collapse: collapse;color: #9fa1a3;margin-left: auto; margin-right: auto; padding: 10px 30px;text-align: center;margin-bottom: 7%;margin-top: 7%;}
+p {font-size: 28px;font-family: 'Roboto', sans-serif;color: #ffffff;margin-top: 7%;;text-align: center;margin-bottom: 3%;text-decoration: none;}
+button {font-size: 25px;font-family: 'Roboto', sans-serif;color: #9fa1a3;margin-top: 1%;;text-align: center;margin-bottom: 3%;text-decoration: none;background-color: #1b1b1b;border: none;display: inline-block;padding-left: 50px;padding-right: 50px;}
+button:hover {color:#ffffff}
+clr {color:#ffffff}
+
+.navheader b {color: #ffffff;text-decoration: none;padding: 10px 30px;font-family: 'Jost', sans-serif;float: left;font-weight: bold;font-size: 25px;}
+.navheader c {color: #ffffff;text-decoration: none;padding: 10px 30px;font-family: 'Jost', sans-serif;float: right;font-weight: bold;}
+.terms c {color: #ffffff;text-decoration: none;padding: 2px 6px;font-family: 'Jost', sans-serif;font-weight: bold;font-size: 2px;padding-top: 50px;}
+.navheader b:hover, .logo-img:hover, .navheader c:hover {color:#500505;cursor: pointer;}
+.tit {font-size: 105px;font-family: 'Bungee', cursive;color: #ffffff;margin-top: 7%;;text-align: center;margin-bottom: 3%;text-decoration: none;margin-left: auto;margin-right: auto;}
+.tit2, .frms {font-size: 25px;font-family: 'Bungee', cursive;color: #9fa1a3;margin-top: 1%;;text-align: center;margin-bottom: 3%;text-decoration: none;margin-left: auto;margin-right: auto;}
+.icon1, .icon2, .icon3, .icon4 {height: 125px;width: 125px;margin-left: auto; margin-right: auto;}
+.icon1:hover, .icon2:hover, .icon3:hover, .icon4:hover, .indx:hover, .frms:hover  {color: #9fa1a3;cursor: pointer;}
+.icon1:hover, .icon2:hover, .icon3:hover, .icon4:hover {opacity: 0.5}
+.appl {text-align: center;padding-top: 15px 0;}
+.frms {margin-left: auto;margin-right: auto;margin-bottom: 7%;}
+
+.foot {background-color: #df1b1b;height: 80px;width: 100%;padding: 2% 0;bottom: 0;position:fixed;text-align: center;}
+.copyright {color: #ffffff;font-family: 'Jost', sans-serif;font-size: 15px;font-weight: bold;margin-left: auto;margin-right: auto;}
