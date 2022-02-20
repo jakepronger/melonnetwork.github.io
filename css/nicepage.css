@@ -36115,6 +36115,12 @@ a.u-link.u-text-hover-grey-90:hover {
             color: #000dfe !important;
         }
 
+        .u-text-custom-color-8,
+        a.u-button-style.u-text-custom-color-8,
+        a.u-button-style.u-text-custom-color-8[class*="u-border-"]
+        {
+            color: #000 !important;
+        }
         
 
         /** common-rules **/
