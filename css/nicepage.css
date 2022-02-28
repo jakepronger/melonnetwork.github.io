@@ -36498,6 +36498,20 @@ a.u-link.u-text-hover-grey-90:hover {
   }
 }
 
+::-webkit-scrollbar {
+  width: 0px;
+}
+::-webkit-scrollbar-track {
+  background: transparent; 
+}
+::-webkit-scrollbar-thumb {
+  background: transparent; 
+}
+::-webkit-scrollbar-thumb:hover {
+  background: transparent; 
+}
+
+
  /*begin-variables base-font-size*/ 
  html { font-size: 16px; }
  /*end-variables base-font-size*/
