@@ -34478,7 +34478,7 @@ a.u-button-style.u-button-style.active > .u-text-active-black[class*="u-border-"
   color: #000000 !important;
 }
 .u-text-black .u-svg-link,
-.u-text-hover-black:hover .u-svg-link,
+.u-text-hover-black .u-svg-link,
 .u-button-style:hover > .u-text-hover-black .u-svg-link,
 .u-button-style.u-button-style.active > .u-text-active-black .u-svg-link,
 .u-text-hover-black:focus .u-svg-link {
@@ -34488,7 +34488,7 @@ a.u-button-style.u-button-style.active > .u-text-active-black[class*="u-border-"
   color: #000000 !important;
 }
 a.u-link.u-text-hover-black:hover {
-  color: #000000 !important;
+  color: #fff !important;
 }
 .u-text-body-color,
 a.u-button-style.u-text-body-color,
@@ -34553,7 +34553,7 @@ a.u-button-style.u-button-style.u-text-body-alt-color:active,
 a.u-button-style.u-button-style.u-text-body-alt-color[class*="u-border-"]:active,
 a.u-button-style.u-button-style.u-text-body-alt-color.active,
 a.u-button-style.u-button-style.u-text-body-alt-color[class*="u-border-"].active {
-  color: #e6e6e6 !important;
+  color: #000 !important;
 }
 a.u-button-style:hover > .u-text-hover-body-alt-color,
 a.u-button-style:hover > .u-text-hover-body-alt-color[class*="u-border-"],
@@ -34582,10 +34582,10 @@ a.u-button-style.u-button-style.active > .u-text-active-body-alt-color[class*="u
 .u-button-style:hover > .u-text-hover-body-alt-color .u-svg-link,
 .u-button-style.u-button-style.active > .u-text-active-body-alt-color .u-svg-link,
 .u-text-hover-body-alt-color:focus .u-svg-link {
-  fill: #ffffff;
+  fill: #000;
 }
 .u-link.u-text-body-alt-color:hover {
-  color: #e6e6e6 !important;
+  color: #000 !important;
 }
 a.u-link.u-text-hover-body-alt-color:hover {
   color: #ffffff !important;
