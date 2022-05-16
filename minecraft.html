@@ -64,6 +64,13 @@
     <div class="u-clearfix u-sheet u-sheet-1">
       <h1 class="u-align-center u-custom-font u-text u-text-default-xl u-text-1" data-animation-name="bounceInDown" data-animation-duration="750" data-animation-delay="0">MINECRAFT</h1>
       <div class="u-align-center u-expanded-width u-layout-grid u-list u-list-1">
+        <div class="popup">
+          <button id="close"><svg xmlns="http://www.w3.org/2000/svg" width="2rem" height="2rem" stroke="currentColor" viewBox="0 0 16 16"><path d="M2.146 2.854a.5.5 0 1 1 .708-.708L8 7.293l5.146-5.147a.5.5 0 0 1 .708.708L8.707 8l5.147 5.146a.5.5 0 0 1-.708.708L8 8.707l-5.146 5.147a.5.5 0 0 1-.708-.708L7.293 8 2.146 2.854Z"></path></svg></button>
+          <h2>PLAY.MHFARM.NET</h2>
+          <p>
+              Server's IP address has been copied successfully.
+          </p>
+      </div>      
         <div class="u-repeater u-repeater-1">
           <div class="u-align-center u-container-style u-custom-item u-list-item u-repeater-item">
             <div class="u-container-layout u-similar-container u-valign-top u-container-layout-1">
@@ -75,7 +82,7 @@
           <div class="u-align-center u-container-style u-custom-item u-list-item u-repeater-item">
             <div class="u-container-layout u-similar-container u-valign-top u-container-layout-2">
               <p class="u-align-center u-custom-font u-font-oswald u-text u-text-default u-text-not-found-message u-text-palette-1-base u-text-3" data-animation-name="fadeInLeft" data-animation-duration="750" data-animation-delay="200">IP</p>
-              <a id="mc-ip" onclick="navigator.clipboard.writeText('play.mhfarm.net') && alert('Successfully copied the server ip.')" class="u-active-custom-color-1 u-black u-border-active-palette-1-base u-border-custom-color-1 u-border-hover-palette-1-base u-border-none u-btn u-btn-rectangle u-button-style u-custom-item u-hover-custom-color-1 u-text-white u-btn-2" target="_blank" title="Click to copy" data-animation-name="fadeInLeft" data-animation-duration="750" data-animation-delay="250">play.mhfarm.net<br>
+              <a id="mc-ip" data-tooltip="Click to copy" onclick="navigator.clipboard.writeText('play.mhfarm.net')" class="u-active-custom-color-1 u-black u-border-active-palette-1-base u-border-custom-color-1 u-border-hover-palette-1-base u-border-none u-btn u-btn-rectangle u-button-style u-custom-item u-hover-custom-color-1 u-text-white u-btn-2 tooltip" target="_blank" title="Click to copy" data-animation-name="fadeInLeft" data-animation-duration="750" data-animation-delay="250">play.mhfarm.net<br>
               </a>
             </div>
           </div>

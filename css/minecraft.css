@@ -286,6 +286,88 @@
   height: 40px;
 }
 
+.tooltip::before,
+.tooltip::after {
+  --scale: 0;
+  --arrow-size: 10px;
+  --tooltip-color: #478ac9;
+  color: #000;
+
+  position: absolute;
+  top: -2rem;
+  left: 50%;
+  transform: translateX(-50%) translateY(var(--translate-y, 0)) scale(var(--scale));
+  transition: 350ms transform;
+  transform-origin: bottom center;
+}
+
+.tooltip::before {
+  --translate-y: calc(-100% - var(--arrow-size));
+
+  content: attr(data-tooltip);
+  color: white;
+  padding: .5rem;
+  border-radius: 1rem;
+  text-align: center;
+  width: max-content;
+  background: var(--tooltip-color);
+}
+
+.tooltip:hover::before,
+.tooltip:hover::after {
+  --scale: 1;
+}
+
+.tooltip::after {
+  --translate-y: calc(-1 * var(--arrow-size));
+
+  content: '';
+  border: var(--arrow-size) solid transparent;
+  border-top-color: var(--tooltip-color);
+  transform-origin: top center;
+}
+
+.popup {
+  background-color: #ff0000;
+  width: 100%;
+  padding: 10px 40px;
+  right: 50%;
+  bottom: 50%;
+  transform: translate(50%, 50%);
+  position: absolute;
+border-radius: .8vw;
+  font-family: "Bungee", sans-serif;
+  display: none;
+  text-align: center;
+  z-index: 1;
+}
+
+.popup button {
+  display: block;
+  margin: 0 0 20px auto;
+  background-color: transparent;
+  color: #ffffff;
+  border: none;
+  cursor: pointer;
+}
+.popup button:hover {
+  color:#000
+}
+
+.popup h2 {
+  margin-top: -20px;
+  color:#fff;
+  font-family:Bungee;
+  font-size: 1.5vw;
+}
+
+.popup p {
+  font-size: .9vw;
+  margin: 20px 0;
+  line-height: 25px;
+  color:#000
+}
+
 @media (max-width: 1199px) {
   .u-section-1 .u-sheet-1 {
     min-height: 1475px;
@@ -308,6 +390,12 @@
   .u-section-1 .u-list-2 {
     margin-top: 30px;
     margin-bottom: 33px;
+  }
+  .popup h2 {
+    font-size: 2.2vw;
+  }
+  .popup p {
+    font-size: 1.6vw;
   }
 }
 
@@ -346,6 +434,12 @@
 
   .u-section-1 .u-list-2 {
     margin-bottom: 90px;
+  }
+  .popup h2 {
+    font-size: 2.8vw;
+  }
+  .popup p {
+    font-size: 2.2vw;
   }
 }
 
@@ -408,6 +502,12 @@
   .u-section-1 .u-container-layout-10 {
     padding-right: 10px;
   }
+  .popup h2 {
+    font-size: 3.2vw;
+  }
+  .popup p {
+    font-size: 2vw;
+  }
 }
 
 @media (max-width: 575px) {
@@ -426,5 +526,11 @@
     margin-right: initial;
     margin-left: initial;
     width: auto;
+  }
+  .popup h2 {
+    font-size: 3.8vw;
+  }
+  .popup p {
+    font-size: 3.2vw;
   }
 }
