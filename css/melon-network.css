@@ -36481,6 +36481,18 @@ a.u-link.u-text-hover-grey-90:hover {
   margin: 18px 15px 0;
 }
 
+.u-section-1 .u-text-4 {
+  font-weight: 700;
+  font-size: 3.375rem;
+  font-family: Bungee-Hairline;
+  text-transform: uppercase;
+}
+
+@font-face {
+  font-family: Bungee-Hairline;
+  src: url(https://raw.githubusercontent.com/google/fonts/main/ofl/bungeehairline/BungeeHairline-Regular.ttf);
+}
+
 .u-section-1 .u-icon-1 {
   height: 100px;
   width: 100px;
@@ -36495,6 +36507,11 @@ a.u-link.u-text-hover-grey-90:hover {
 }
 
 .u-section-1 .u-list-1 {
+  margin-top: 131px;
+  margin-bottom: 59px;
+}
+
+.u-section-1 .u-list-2 {
   margin-top: 131px;
   margin-bottom: 59px;
 }
@@ -36750,6 +36767,10 @@ border-radius: .8vw;
     font-size: 3.5625rem;
   }
 
+  .u-section-1 .u-text-4 {
+    font-size: 3rem;
+  }
+
   .u-section-1 .u-repeater-2, .u-section-1 .u-repeater-4 {
     grid-template-columns: 100%;
     grid-gap: 0px 0px;
@@ -36791,6 +36812,15 @@ border-radius: .8vw;
   .u-section-1 .u-text-2 {
     font-size: 2rem;
   }
+
+  .u-section-1 .u-text-4 {
+    font-size: 1.675rem;
+  }
+
+  .u-section-1 .u-list-2 {
+    margin-top: 0px;
+    margin-bottom: 59px;
+  }  
 
   .u-section-1 .u-repeater-1, .u-section-1 .u-repeater-3 {
     grid-template-columns: 100%;
