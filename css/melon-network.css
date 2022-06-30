@@ -36601,11 +36601,12 @@ a.u-link.u-text-hover-grey-90:hover {
   color: #000;
 
   position: absolute;
-  top: -1rem;
+  top: -.8rem;
   left: 50%;
   transform: translateX(-50%) translateY(var(--translate-y, 0)) scale(var(--scale));
   transition: 350ms transform;
   transform-origin: bottom center;
+  font-family: Oswald !important;
 }
 
 .tooltip::before {
@@ -36635,7 +36636,7 @@ a.u-link.u-text-hover-grey-90:hover {
 }
 
 .popup {
-  background-color: #0090db;
+  background-color: #df1b1b;
   width: 100%;
   padding: 10px 40px;
   right: 50%;
@@ -36643,7 +36644,6 @@ a.u-link.u-text-hover-grey-90:hover {
   transform: translate(50%, 50%);
   position: absolute;
 border-radius: .8vw;
-  font-family: "Bungee", sans-serif;
   display: none;
   text-align: center;
   z-index: 1;
@@ -36657,22 +36657,12 @@ border-radius: .8vw;
   border: none;
   cursor: pointer;
 }
-.popup button:hover {
-  color:#000
-}
 
 .popup h2 {
   margin-top: -20px;
   color:#fff;
   font-family:Bungee;
   font-size: 1.5vw;
-}
-
-.popup h3 {
-  font-size: .9vw;
-  margin: 20px 0;
-  line-height: 25px;
-  color:#000;
 }
 
 @media (max-width: 1199px) {
