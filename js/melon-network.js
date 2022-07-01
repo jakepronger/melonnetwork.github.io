@@ -45,5 +45,5 @@ var x = setInterval(function() {
   var days = Math.floor(distance / (1000 * 60 * 60 * 24));var hours = Math.floor((distance % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
   var minutes = Math.floor((distance % (1000 * 60 * 60)) / (1000 * 60));var seconds = Math.floor((distance % (1000 * 60)) / 1000);if(seconds<10)seconds='0'+seconds;
   document.getElementById("countdown").innerHTML = `<h2 class="u-align-center-sm u-align-center-xs u-custom-font u-title u-text u-text-palette-4-base u-text-4" data-animation-name="bounceInDown" data-animation-duration="750" data-animation-delay="50"><b class="u-align-center-sm u-align-center-xs u-custom-font u-title u-text u-text-palette-2-base u-text-4">${days}</b>d<b class="u-align-center-sm u-align-center-xs u-custom-font u-title u-text u-text-palette-2-base u-text-4">${hours}</b>h<b class="u-align-center-sm u-align-center-xs u-custom-font u-title u-text u-text-palette-2-base u-text-4">${minutes}</b>m<b class="u-align-center-sm u-align-center-xs u-custom-font u-title u-text u-text-palette-2-base u-text-4">${seconds}</b>s`;
-  if(distance<0){clearInterval(x);document.getElementById("countdown").innerHTML="Season 1 has been released!";}
+  if(distance<0){clearInterval(x);document.getElementById("countdown").innerHTML="Season 1 will be released soon!";}
 }, 1000);
