@@ -25568,6 +25568,12 @@ li.active > a.u-button-style.u-button-style.u-active-white[class*="u-border-"] {
 a.u-link.u-hover-white:hover {
   color: #ffffff !important;
 }
+
+.u-background-black{
+  background-color: #000 !important;
+  color:#fff !important;
+}
+
 .u-black,
 .u-body.u-black,
 .u-container-style.u-black:before,
@@ -36506,6 +36512,11 @@ a.u-link.u-text-hover-grey-90:hover {
   margin-right: 10%;
 }
 
+.u-line-2 {
+  margin-top: 10%;
+  margin-bottom: 10%;
+}
+
 .u-section-1 .u-list-1 {
   margin-top: 131px;
   margin-bottom: 59px;
@@ -36543,6 +36554,7 @@ a.u-link.u-text-hover-grey-90:hover {
 .u-section-1 .u-btn-1, .u-section-1 .u-btn-2, .u-section-1 .u-btn-3 {
   border-style: none;
   text-transform: uppercase;
+  text-align: center;
   font-size: 1rem;
   letter-spacing: 4px;
   font-weight: 700;
